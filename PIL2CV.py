@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from PIL import Image, ImageEnhance
 class PIL2CV:
     def pil_to_cv(pil_image):
         cv_image = np.array(pil_image, dtype=np.uint8)
