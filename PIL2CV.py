@@ -9,5 +9,4 @@ class PIL2CV:
             cv_image = cv2.cvtColor(cv_image, cv2.COLOR_RGB2BGR)
         elif cv_image.shape[2] == 4:
             cv_image = cv2.cvtColor(cv_image, cv2.COLOR_RGBA2BGRA)
-
         return cv_image
